@@ -1,0 +1,55 @@
+body {
+  background-image: url(./leather-1117.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: antiquewhite !important;
+}
+.hidden {
+  display: none !important;
+}
+#head {
+  margin-left: 35%;
+}
+button {
+  width: 100px;
+  margin: 10px !important;
+  border-radius: 10px !important;
+}
+.active {
+  border: 5px black solid;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#container {
+  margin-left: 500px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  position: relative;
+  display: inline-block;
+  padding-left: 130px !important;
+  margin-left: 180px;
+  width: 40%;
+
+  padding: 10px;
+}
+.header {
+  margin-left: 40px;
+}
+.progress {
+  margin: 10px;
+}
+.img {
+  position: relative;
+  margin-bottom: 250px;
+  margin-left: 200px;
+  display: inline-block;
+}
